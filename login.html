@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Login | NEO</title><link rel="icon" href="assets/neo-mark.svg"><link rel="stylesheet" href="assets/neo.css"><script defer src="assets/neo.js"></script></head>
+<body class="theme-aurora auth-page">
+<header class="site-header">
+<a class="brand" href="index.html"><span class="brand-mark"><span>N</span></span><span class="brand-text">NEO</span></a>
+<div class="header-actions"><a class="btn btn-ghost" href="index.html">Back to NEO</a></div>
+</header>
+<main class="auth-wrap">
+<section class="auth-card">
+<div class="auth-glow"></div>
+<div class="eyebrow gradient">NEO SECURE ACCESS</div>
+<h1>Welcome back.</h1>
+<p class="auth-intro">Sign in to enter the NEO workspace and access your authorized working sections.</p>
+<form id="loginForm" class="auth-form">
+<label>Email<input id="loginEmail" type="email" required placeholder="you@company.com"></label>
+<label>Password<input id="loginPassword" type="password" required minlength="4" placeholder="Enter your password"></label>
+<div class="auth-options"><label class="check"><input type="checkbox" id="remember"> Remember me</label><span class="helper">Prototype access flow</span></div>
+<button class="btn btn-primary auth-submit" type="submit">Sign in to NEO</button>
+<div id="loginMessage" class="small-message"></div>
+</form>
+<div class="auth-divider"><span>NEW TO NEO?</span></div>
+<a class="btn btn-ghost full" href="signup.html">Create an account</a>
+<p class="security-note">Production deployment should connect this screen to a real identity provider, MFA, role-based access control and secure session management.</p>
+</section>
+</main>
+<footer class="footer"><div class="container footer-bottom"><span>© 2026 NEO</span><a href="contact.html">Contact NEO</a></div></footer>
+</body></html>

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>NEO Workspace</title><link rel="icon" href="assets/neo-mark.svg"><link rel="stylesheet" href="assets/neo.css"><script defer src="assets/neo.js"></script><script defer src="assets/auth.js"></script></head>
+<body class="theme-ocean workspace-page">
+<header class="site-header"><a class="brand" href="index.html"><span class="brand-mark"><span>N</span></span><span class="brand-text">NEO</span></a><nav class="main-nav"><a href="platform.html">Platform</a><a href="solutions.html">Solutions</a><a class="active" href="workspace.html">Workspace</a><a href="company.html">Company</a><a href="careers.html">Careers</a><a href="contact.html">Contact</a></nav><div class="header-actions"><button class="color-switcher" type="button" data-theme-switch><span class="color-dot"></span>AI Color</button><a class="header-link" href="contact.html">Support</a><button class="btn btn-ghost" id="logoutBtn" type="button">Log out</button></div><button class="mobile-toggle">Menu</button></header>
+
+<main>
+<section class="workspace-shell"><div class="workspace-userbar"><span id="userGreeting">Authorized workspace</span><span>Prototype identity session</span></div>
+<aside class="workspace-side">
+<div class="side-label">WORKING SECTIONS</div>
+<a class="side-active" href="#qms">QMS &amp; Compliance</a><a href="#qa">QA</a><a href="#qc">QC</a><a href="#manufacturing">Manufacturing</a><a href="#production">Production</a><a href="#supply">Supply Chain</a><a href="#rd">R&amp;D</a><a href="#clinical">Clinical</a><a href="#regulatory">Regulatory</a><a href="#pv">Pharmacovigilance</a>
+<div class="side-rule"></div><div class="side-label">CONTROL</div><a href="#approvals">Human approvals</a><a href="#evidence">Evidence</a><a href="#auditlog">Audit trail</a>
+</aside>
+
+<section class="workspace-main">
+<div class="workspace-header"><div><div class="eyebrow gradient">AUTHORIZED CLIENT VIEW</div><h1>QMS &amp; Compliance</h1><p>Navigate department intelligence without losing the original evidence.</p></div><div class="workspace-state"><span class="dot"></span>CONTROLLED ENVIRONMENT</div></div>
+
+<div class="kpi-grid"><div class="kpi"><small>MAJOR DEVIATIONS</small><strong>12</strong><span>Current review period</span></div><div class="kpi"><small>RECURRING EVENTS</small><strong>04</strong><span>Linked history</span></div><div class="kpi"><small>OPEN CAPA</small><strong>07</strong><span>Human review</span></div><div class="kpi"><small>AUDIT REQUESTS</small><strong>19</strong><span>Evidence packages</span></div></div>
+
+<div class="workspace-card" id="departmentLauncher">
+<div class="card-head"><div><div class="eyebrow">DEPARTMENT ACCESS</div><h2>Open a working section</h2></div><span class="tag">AUTHORIZED NAVIGATION</span></div>
+<div class="cards department-cards">
+<a class="card" href="solutions.html#quality"><div class="tag">QA</div><h3>Quality Assurance</h3><p>QMS oversight, audit readiness, CAPA and change control.</p></a>
+<a class="card" href="solutions.html#quality"><div class="tag">QC</div><h3>Quality Control</h3><p>Laboratory events, analytical records and instrument intelligence.</p></a>
+<a class="card" href="solutions.html#operations"><div class="tag">MANUFACTURING</div><h3>Manufacturing</h3><p>Process deviations, records and operational intelligence.</p></a>
+<a class="card" href="solutions.html#operations"><div class="tag">SUPPLY</div><h3>Supply Chain</h3><p>Materials, vendors and operational exceptions.</p></a>
+<a class="card" href="solutions.html#rd"><div class="tag">R&amp;D</div><h3>R&amp;D</h3><p>Research evidence and project knowledge.</p></a>
+<a class="card" href="solutions.html#clinical"><div class="tag">CLINICAL</div><h3>Clinical / Regulatory</h3><p>Future specialized regulated workflows.</p></a>
+</div></div>
+<div class="workspace-card" id="qms">
+<div class="card-head"><div><div class="eyebrow">DEVIATION INTELLIGENCE</div><h2>Search authorized records</h2></div><span class="tag">EVIDENCE CONNECTED</span></div>
+<div class="search-row"><input id="recordSearch" type="search" placeholder="Try: cleaning deviation, repeated OOS, CAPA..." aria-label="Search records"><button class="btn btn-primary" id="recordSearchBtn">Search</button></div>
+<div id="recordResults" class="record-list"></div>
+</div>
+
+<div class="workspace-two">
+<div class="workspace-card" id="approvals">
+<div class="card-head"><div><div class="eyebrow">HUMAN AUTHORITY</div><h2>Approval gate</h2></div><span class="tag">REQUIRED</span></div>
+<div class="approval-box"><div class="approval-step done"><span>1</span><div><b>NEO preparation</b><small>Evidence gathered and linked</small></div></div><div class="approval-line"></div><div class="approval-step current"><span>2</span><div><b>Authorized human review</b><small>Digital approval / signature workflow</small></div></div><div class="approval-line"></div><div class="approval-step"><span>3</span><div><b>Controlled release</b><small>No autonomous external communication</small></div></div></div>
+<button class="btn btn-primary" id="approvalBtn">Prepare authorization record</button><div id="approvalMsg" class="small-message"></div>
+</div>
+
+<div class="workspace-card">
+<div class="card-head"><div><div class="eyebrow">AUDIT COMMAND CENTER</div><h2>Live request board</h2></div></div>
+<div class="request"><span class="request-no">AUD-104</span><div><b>Sampling procedure</b><p>SOP reference + current revision + training evidence</p></div><span class="status pending">SME REVIEW</span></div>
+<div class="request"><span class="request-no">AUD-105</span><div><b>Cleaning procedure</b><p>Current SOP + related deviation history</p></div><span class="status ready">READY</span></div>
+<div class="request"><span class="request-no">AUD-106</span><div><b>Change-control rationale</b><p>Prior impact + CAPA + approval trail</p></div><span class="status pending">SME REVIEW</span></div>
+</div>
+</div>
+
+<div class="workspace-card" id="evidence">
+<div class="card-head"><div><div class="eyebrow">EVIDENCE VIEW</div><h2>How NEO should answer</h2></div></div>
+<div class="evidence-grid"><div><span class="tag">EXAMPLE REQUEST</span><h3>“Show the current sampling procedure.”</h3><p>NEO prepares a structured evidence response:</p><ol><li>Current approved SOP identifier and revision</li><li>Relevant section / page reference</li><li>Training evidence, if authorized</li><li>Related deviations / CAPA, where authorized</li><li>Human review and approval state</li></ol></div><div class="source-chain"><div>REQUEST</div><b>↓</b><div>CONTROLLED SOURCE</div><b>↓</b><div>CONTEXT</div><b>↓</b><div>HUMAN REVIEW</div><b>↓</b><div>AUTHORIZED RELEASE</div></div></div>
+</div>
+
+<div class="workspace-card">
+<div class="card-head"><div><div class="eyebrow">KAIZEN</div><h2>Continuous improvement radar</h2></div></div>
+<div class="kaizen-grid"><div><b>Repeated manual search</b><span>Potential automation opportunity</span></div><div><b>Recurring deviation pattern</b><span>Historical comparison recommended</span></div><div><b>Document retrieval delay</b><span>Candidate for evidence indexing</span></div></div>
+</div>
+</section>
+</section>
+</main>
+<footer class="footer"><div class="container footer-bottom"><span>© 2026 NEO</span><span>Workspace foundation — connect to a validated backend before regulated production use.</span></div></footer>
+</body></html>

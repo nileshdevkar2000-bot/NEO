@@ -1,55 +1,45 @@
-# NEO Website Deployment
+# NEO Full Website Deployment 2026
 
-This is the NEO website deployment starter created from the requirements discussed in the project conversation.
+## Included website
+- Home
+- Platform
+- Solutions
+- Workspace
+- Company / About NEO
+- Careers
+- Contact
+- Trust & Controls
+- Original NEO visual identity
+- Responsive layout
+- Dynamic AI Color theme switcher
+- QMS / Compliance workflow
+- Audit Command Center concept
+- Department-wise QMS sections
+- Deviation / CAPA / change-control evidence flow
+- Human approval / digital authorization concept
+- Kaizen continuous-improvement section
+- Pharma-first / non-pharma expansion positioning
 
-## Included
-- Original NEO visual identity; not a copied chatbot interface.
-- Public company website structure:
-  - Home
-  - Platform
-  - Solutions
-  - Purpose
-  - Trust & Security
-  - Careers
-  - Contact
-- Product workspace concept:
-  - QMS & Compliance
-  - QA
-  - QC
-  - Manufacturing
-  - Production
-  - Supply Chain
-  - R&D
-  - Clinical Operations
-  - Regulatory Affairs
-  - Pharmacovigilance
-- QMS deviation / CAPA / SOP evidence concept.
-- Audit Command Center concept with front-room / back-room coordination.
-- Explainable, evidence-first operation.
-- Human approval / digital authorization gate.
-- Kaizen / continuous-improvement principle.
-- Client-data isolation principle.
+## Contact details used
+- Organization: Neo Pat.Ltd.
+- Directory / contact: Mr. Nilesh Devkar
+- Email: metaneo0256@gmail.com
+- Mobile: +918898182631
+- Address: Mumbai, Maharashtra, India
 
-## Deploy
-This is a static site and can be deployed on any static hosting service.
+## How to open
+Double-click `index.html` to view locally.
 
-### Netlify
-1. Go to Netlify.
-2. Choose Add new site → Deploy manually.
-3. Upload the contents of this folder (or the ZIP).
-4. Netlify will provide a public URL.
+## How to deploy
+Upload the full folder to a static-hosting service such as:
+- Netlify
+- Vercel
+- GitHub Pages
+- Cloudflare Pages
+- Your own web server
 
-### Vercel
-1. Create a new project.
-2. Upload/import this folder.
-3. Deploy as a static site.
+## Important product note
+This is a front-end website and product UX foundation. The NEO concepts shown are not a validated pharmaceutical QMS, electronic-signature system, or production AI service. Real deployment requires backend engineering, authentication, role-based access, data connectors, audit trails, security, testing/validation, data-integrity controls and applicable regulatory assessment.
 
-### GitHub Pages
-1. Create a repository.
-2. Upload `index.html` and `styles.css`.
-3. Enable GitHub Pages from repository settings.
-
-## Important
-The email, company address, legal entity information and other corporate details are intentionally not fabricated. Replace the example contact email with the official NEO domain/email after they are established.
-
-This is a front-end website starter, not a production QMS. Real pharmaceutical deployment requires validated architecture, access control, audit trails, electronic-signature controls, data integrity controls, security, testing, and applicable regulatory assessment.
+## Originality
+The visual language is created specifically for NEO. No third-party AI chatbot interface or third-party logos are used.

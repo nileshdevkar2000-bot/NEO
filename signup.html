@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sign Up | NEO</title><link rel="icon" href="assets/neo-mark.svg"><link rel="stylesheet" href="assets/neo.css"><script defer src="assets/neo.js"></script></head>
+<body class="theme-aurora auth-page">
+<header class="site-header">
+<a class="brand" href="index.html"><span class="brand-mark"><span>N</span></span><span class="brand-text">NEO</span></a>
+<div class="header-actions"><a class="btn btn-ghost" href="index.html">Back to NEO</a></div>
+</header>
+<main class="auth-wrap">
+<section class="auth-card">
+<div class="auth-glow"></div>
+<div class="eyebrow gradient">CREATE NEO ACCESS</div>
+<h1>Start your NEO workspace.</h1>
+<p class="auth-intro">Create a prototype account to test the navigation and workspace flow. Your future production account would be provisioned by your organization.</p>
+<form id="signupForm" class="auth-form">
+<label>Full name<input id="signupName" type="text" required placeholder="Your full name"></label>
+<label>Work email<input id="signupEmail" type="email" required placeholder="you@company.com"></label>
+<label>Organization<input id="signupCompany" type="text" required placeholder="Company / organization"></label>
+<label>Password<input id="signupPassword" type="password" required minlength="4" placeholder="Create a password"></label>
+<label class="check"><input type="checkbox" id="signupAgree" required> I understand this is a prototype access flow.</label>
+<button class="btn btn-primary auth-submit" type="submit">Create NEO access</button>
+<div id="signupMessage" class="small-message"></div>
+</form>
+<div class="auth-divider"><span>ALREADY HAVE ACCESS?</span></div>
+<a class="btn btn-ghost full" href="login.html">Sign in</a>
+<p class="security-note">For a production system, passwords should never be stored in browser storage; use a secure identity provider.</p>
+</section>
+</main>
+<footer class="footer"><div class="container footer-bottom"><span>© 2026 NEO</span><a href="contact.html">Contact NEO</a></div></footer>
+</body></html>
